@@ -1,0 +1,24 @@
+.lis {
+  font-size: 13px;
+
+  font-weight: 500;
+}
+.list {
+  font-size: 13px;
+  font-weight: 500;
+}
+.main {
+  height: 156vh;
+  background-color: #f4feff;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    height: 390vh !important ;
+  }
+}
+@media screen and (max-width: 720px) {
+  .main {
+    height: 390vh !important ;
+  }
+}

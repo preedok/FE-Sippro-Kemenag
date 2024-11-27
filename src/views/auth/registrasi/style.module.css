@@ -1,0 +1,198 @@
+.main {
+  height: 100vh;
+  width: auto;
+}
+
+.customBackground {
+  background: linear-gradient(to bottom, #2cbcc4, #00FFFF);
+}
+
+.nameBrand {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+}
+
+@keyframes moveUpDown {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.imageContainer {
+  animation: moveUpDown 3s infinite;
+}
+
+
+.descriptionBrand {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: white;
+}
+
+.bottomBrand {
+  margin-left: 5rem;
+}
+
+.btn {
+  border: none;
+  padding: 5px 20px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 7px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+  border-radius: 20px !important;
+  margin-top: -37rem;
+  width: 1160px;
+  height: 531px;
+}
+
+
+
+.row {
+  overflow-x: hidden;
+}
+
+.logo {
+  width: 92px;
+  height: 87px;
+}
+
+.buttn {
+  border: none !important;
+  margin-top: -100px;
+}
+
+.colBtm {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    height: auto;
+
+  }
+
+  .buttn {
+    border: none !important;
+    margin-top: 10px;
+  }
+
+  .colBtm {
+    padding: 10px 30px !important;
+  }
+
+  .ilust3 {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .nameBrand {
+    font-size: 20px;
+    color: black;
+  }
+
+  .descriptionBrand {
+    font-size: 12px;
+    color: black;
+  }
+
+  .bottomBrand {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .btn {
+    margin: 10px auto;
+  }
+
+  .card {
+    margin: 0 auto;
+    margin-top: -0.1rem !important;
+    width: 100%;
+    height: auto;
+  }
+
+  .button {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ilust {
+    display: none;
+  }
+
+  .card {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+    width: 72px;
+    height: 77px;
+    margin-left: 5%;
+  }
+
+  .loginBtn {
+    width: 150px;
+  }
+}
+
+
+
+
+/* regulasi */
+.dokumen{
+  border: 2px solid green;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 13px;
+}
+
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  margin-top: -37rem;
+  width: 1500px !important;
+  height: auto
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  margin-top: -37rem;
+  width: 1600px !important;
+  height: auto
+}

@@ -1,0 +1,9 @@
+.wrapper::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Gaya untuk thumb dari scrollbar */
+.wrapper::-webkit-scrollbar-thumb {
+    background-color: linear-gradient(to bottom, #2cbcc4, #00FFFF);
+    border-radius: 5px;
+}

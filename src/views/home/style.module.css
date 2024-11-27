@@ -1,0 +1,560 @@
+.backgroundRow {
+  background-color: #77c3dc;
+  background-image: url('../../assets/bgv2.png');
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -2;
+  margin-top: -6rem;
+  transition: background-color 1s ease;
+}
+
+
+.darkMode {
+  background-color: #000000;
+  color: #fff !important;
+  animation: wave-animation 1s ease-out;
+}
+
+
+.text-black {
+  color: #000 !important;
+}
+
+.navs {
+  padding: 0px 30px !important;
+  background-color: transparent;
+}
+
+.homeSec {
+  margin: 5rem !important;
+  padding-top: 13rem;
+}
+
+.textLeft {
+  font-size: 63px;
+  font-family: sans-serif;
+}
+
+.span {
+  color: #2190b2;
+}
+
+.buttonDaftar {
+  width: 316px;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  z-index: 1;
+  padding: 13px 7px !important;
+}
+
+.imageRight {
+  position: relative;
+}
+
+.elipseImage {
+  z-index: 1;
+  margin-left: -530px;
+  margin-top: -188px;
+  width: 1511px;
+  height: 925px;
+}
+
+.textHeadProsedur {
+  font-weight: 600;
+  font-size: 50px;
+  font-family: sans-serif;
+  margin-left: 25px;
+}
+
+
+.avatar {
+  background-color: #2190b2 !important;
+}
+
+.h4Prosedur {
+  font-size: 26px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.pProsedur {
+  font-size: 16px;
+  color: #595b5b;
+  font-weight: 500 !important;
+}
+
+.spanProsedur {
+  font-size: 16px;
+}
+
+.bgTextPanduan {
+  width: 500px !important;
+  background-color: #3a9cbb !important;
+}
+
+.bgPanduan {
+  background-image: url("../../assets/backgroundPanduan.png");
+  height: 570px;
+}
+
+.regulasidiv {
+  margin-top: 230px !important;
+}
+
+.h4Regulasi {
+  margin-top: -200px;
+  font-size: 50px;
+}
+
+/* footer */
+.footer {
+  height: 312px;
+  /* background-color: #a1dbee; */
+}
+
+.h5Text {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.pTextFooter {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.hr {
+  width: 500px;
+  height: 1px;
+  /* background-color: rgb(0, 0, 0); */
+  margin: 10px auto;
+}
+
+.map {
+  width: 35px;
+  height: 35px;
+  color: black;
+}
+
+.prosedurcolumn {
+  display: flex;
+  margin: 50px 0px;
+}
+
+.regulasiSec {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.ProsedurSec,
+.regulasiSec {
+  padding: 0px 5rem;
+}
+
+.ProsedurSec {
+  margin-top: -120px !important;
+}
+
+.h4Dokumen {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.textLogoss {
+  font-weight: 600;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.textLogoss1 {
+  font-weight: 500;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.textLogoss3 {
+  font-weight: 600;
+  font-size: 26px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.textLogoss2 {
+  font-weight: 500;
+  font-size: 12px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.menuItemWhite {
+  color: white !important;
+}
+
+.hidden {
+  overflow-x: hidden;
+}
+
+.pp {
+  position: absolute !important;
+  top: 20% !important;
+  right: 50px !important
+}
+
+.pp1 {
+  position: absolute !important;
+  top: 20% !important;
+  right: 50px !important
+}
+
+@media screen and (max-width: 600px) {
+  .logoss {
+    margin-left: -2rem;
+  }
+
+  .lgoinss {
+    margin-bottom: 20px !important;
+  }
+
+  .pp {
+    position: absolute;
+    top: 55% !important;
+    left: 40% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+
+  .hidden {
+    overflow-x: hidden;
+  }
+
+  .bgLogin {
+    background-color: black;
+  }
+
+  .bgPutih {
+    background-color: white;
+  }
+
+  .textLeft {
+    font-size: 32px;
+  }
+
+  .buttonDaftar {
+    width: 216px;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    z-index: 1;
+    padding: 9px 10px;
+  }
+
+  .homeSec {
+    margin: 1rem !important;
+    padding-top: 8.5rem;
+  }
+
+  .imageContainer {
+    animation: moveUpDown 3s infinite;
+    width: 366.95px !important;
+    z-index: 2;
+    margin-top: -4rem;
+  }
+
+  .textHeadProsedur {
+    font-weight: 600;
+    font-size: 38px;
+    font-family: sans-serif;
+  }
+
+  .ProsedurSec {
+    padding: 0px 2rem;
+    margin-top: -20rem !important;
+  }
+
+  .h4Dokumen {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -3rem;
+  }
+
+  .bgTextPanduan {
+    font-size: 11px !important;
+    width: 350px !important;
+  }
+
+  .buttonContainer {
+    flex-direction: column !important;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .dokumenColumn {
+    align-items: center;
+  }
+
+  /* regulasi */
+  .h4Regulasi {
+    font-size: 38px;
+  }
+
+  .regulasiSec {
+    padding: 0px 2rem;
+  }
+
+  .regulasidiv ul li {
+    margin-bottom: 20px !important;
+  }
+
+  .avatar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .h4Prosedur {
+    font-size: 24px;
+    margin-left: -1rem;
+  }
+
+  .prosedurcolumn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dokumenColumn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spanProsedur {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* footer */
+  .h5Text {
+    font-size: 21px !important;
+  }
+
+  .pTextFooter {
+    font-size: 12px !important;
+  }
+
+  .hr {
+    width: 300px;
+    height: 1px;
+    background-color: white;
+    margin: 10px auto;
+  }
+
+  .mapText {
+    font-size: 12px;
+    margin-top: 10px;
+    /* color: black; */
+  }
+}
+
+@keyframes moveUpDown {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.imageContainer {
+  animation: moveUpDown 3s infinite;
+  width: 676.95px;
+  height: 444px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes underlineTransition {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #2190b2;
+  animation: underlineTransition 0.5s ease forwards;
+}
+
+/* daftar */
+.daftarSec {
+  background-color: #effbff;
+  height: 100vh;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.card {
+  width: 918px;
+  height: 492px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.textDaftar {
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.card2 {
+  width: 236px;
+  height: 205px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.gaps {
+  gap: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 418px;
+    height: 100vh;
+    border-radius: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  .navs {
+    position: fixed;
+  }
+
+  .card2 {
+    width: 206px;
+    height: 215px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0);
+  }
+
+  .gaps {
+    gap: 10px;
+  }
+
+  .button2 {
+    width: 150px;
+  }
+
+  .textDaftar {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .textDaftar1 {
+    margin-top: 5rem;
+  }
+}
+
+/* login */
+.cardLogin {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 600px;
+  height: 480px;
+  padding: 20px;
+  border-radius: 22px;
+}
+
+.cardLogin1 {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 600px;
+  height: 480px;
+  padding: 20px;
+  border-radius: 22px;
+}
+
+
+.daftarButtons {
+  width: 316px;
+  height: 63px;
+  font-size: 21px;
+}
+
+@media screen and (max-width: 600px) {
+  .cardLogin {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 300px;
+    height: 480px;
+    padding: 20px 0.2px;
+    border-radius: 22px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+  }
+
+  .cardLogin1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 300px;
+    height: 480px;
+    padding: 20px 0.2px;
+    border-radius: 22px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+  }
+
+  .daftarButtons {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cardLogin {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 260px;
+    height: 480px;
+    padding: 20px 0.2px;
+    border-radius: 22px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+  }
+
+  .cardLogin1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 260px;
+    height: 480px;
+    padding: 20px 0.2px;
+    border-radius: 22px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+  }
+
+  .daftarButtons {
+    display: none !important;
+  }
+}

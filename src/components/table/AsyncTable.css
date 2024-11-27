@@ -1,0 +1,27 @@
+.table-manual {
+  font-weight: 400;
+  padding: 16px;
+}
+
+.table-manual .title-underline {
+  font-size: 16px;
+  text-decoration-line: underline;
+  display: block;
+}
+
+.table-manual .title {
+  font-size: 16px;
+  display: block;
+}
+
+.table-manual .title-danger {
+  font-size: 16px;
+  display: block;
+  color: #ff0000;
+  font-style: italic;
+}
+
+.table-manual .subtitle {
+  font-size: 14px;
+  display: block;
+}

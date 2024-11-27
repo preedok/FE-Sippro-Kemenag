@@ -1,0 +1,358 @@
+.backgroundRow {
+  background-color: #77c3dc;
+  background-image: url('../../../assets/bgv2.png');
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  transition: background-color 1s ease;
+}
+
+.carousel-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel .slider-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: none;
+}
+
+.menuButton:hover {
+  text-decoration: none;
+  color: #2cbcc4 !important;
+}
+
+.carousel .slider {
+  height: 100%;
+}
+
+.carousel .slide {
+  background: none;
+  height: 100vh;
+}
+
+
+.carousel .slide img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 100vh;
+}
+
+.nameBrand {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+
+.carouselImage {
+  border-radius: 14px;
+}
+
+.rows {
+  padding: 8rem;
+  height: 100vh;
+}
+
+.customBackground {
+  position: relative;
+  background: linear-gradient(to bottom, #2cbcc4, #00FFFF);
+  /* animation: backgroundAnimation 10s linear infinite; */
+}
+
+/* @keyframes backgroundAnimation {
+  0% {
+    background: linear-gradient(to bottom, #2cbcc4, #00FFFF);
+  }
+
+  25% {
+    background: linear-gradient(to bottom, #33cccc, #00ccff);
+  }
+
+  50% {
+    background: linear-gradient(to bottom, #66cc99, #00ffcc);
+  }
+
+  75% {
+    background: linear-gradient(to bottom, #99cc66, #00ff99);
+  }
+
+  100% {
+    background: linear-gradient(to bottom, #cc9933, #00ff66);
+  }
+} */
+
+.customBackground::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10vw;
+  height: 30vh;
+  background-image: url('../../../../src/assets/batik1.png');
+  background-size: cover;
+  opacity: 0.6;
+}
+
+
+.rows1 {
+  border-radius: 15px;
+  margin-top: 1rem;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+}
+
+.descriptionBrand {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+}
+
+.buttonContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  justify-content: space-between !important;
+  align-items: baseline;
+}
+
+.menuButton {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 8px 10px;
+  transition: color 0.3s ease-in-out;
+  position: relative;
+}
+
+
+.menuButton:hover {
+  color: rgb(3, 148, 216);
+  text-decoration: none;
+}
+
+.menu {
+  justify-content: flex-end !important;
+}
+
+.ss {
+  justify-content: flex-end !important;
+  display: flex;
+}
+
+.menuButtonsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuButtons {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.activeMenu {
+  text-decoration: underline;
+}
+
+.activeIndicator {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  border-radius: 10px;
+  list-style: none;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menuButton:hover .activeIndicator,
+.menuButton.activeMenu .activeIndicator {
+  transform: scaleX(1);
+}
+
+.bottomBrand {
+  margin-left: 7.4rem;
+  color: black;
+}
+
+.btn {
+  border: none;
+  padding: 5px 20px;
+  margin-top: 9px;
+  margin-right: 5px;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 7px;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+
+.colBtm {
+  margin-left: 60px;
+  margin-top: 16rem !important;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+}
+
+.ilust {
+  width: 350px;
+  height: 350px;
+}
+
+@keyframes moveUpDown {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.imageContainer {
+  animation: moveUpDown 3s infinite;
+}
+
+.logo {
+  width: 72px;
+  height: 67px;
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    display: block;
+    width: 100%;
+    margin: none;
+    padding: none;
+  }
+
+  .cardLogin1 {
+    margin: 15px;
+  }
+
+  .col-md-8,
+  .buttonContainer {
+    display: none !important;
+  }
+
+  .nameBrand {
+    font-size: 1px !important;
+  }
+
+  .descriptionBrand {
+    font-size: 13px !important;
+  }
+
+  .rows1 {
+    width: 100% !important;
+    padding: none;
+    border-radius: 0;
+    margin: none;
+  }
+
+  .rows {
+    padding: 20px !important;
+  }
+
+  .bgLight {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    border-radius: 13px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .col-md-4 {
+    display: block;
+    width: 100%;
+
+  }
+
+  .cardLogin1 {
+    margin: 15px;
+  }
+
+  .customBackground {
+    background: linear-gradient(to bottom, #2cbcc4, #00FFFF);
+  }
+
+  .cold8,
+  .buttonContainer {
+    display: none !important;
+  }
+
+  .sp {
+    font-size: 12px;
+  }
+
+  .nameBrand {
+    font-size: 1px !important;
+  }
+
+  .descriptionBrand {
+    font-size: 13px !important;
+  }
+
+  .rows1 {
+    width: 100% !important;
+    padding: none;
+    border-radius: 0;
+    margin: none;
+  }
+
+  .rows {
+    padding: 20px !important;
+  }
+
+  .bgLight {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    border-radius: 13px !important;
+  }
+
+}
